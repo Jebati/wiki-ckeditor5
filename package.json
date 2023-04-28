@@ -55,6 +55,7 @@
 	"@ckeditor/ckeditor5-theme-lark": "^19.1.0",
 	"@ckeditor/ckeditor5-typing": "^19.0.1",
     "@ckeditor/ckeditor5-word-count": "^19.0.1",
+	"@ckeditor/ckeditor5-page-break": "^19.0.1",
     "eslint": "^7.3.0",
     "eslint-config-ckeditor5": "^2.1.0",
     "lint-staged": "^10.2.11",

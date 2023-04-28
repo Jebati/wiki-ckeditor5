@@ -54,6 +54,7 @@ import TodoList from '@ckeditor/ckeditor5-list/src/todolist';
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline';
 import UploadAdapter from '@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter';
 import WordCount from '@ckeditor/ckeditor5-word-count/src/wordcount';
+import PageBreak from '@ckeditor/ckeditor5-page-break/src/pagebreak';
 
 import Plugin from '@ckeditor/ckeditor5-core/src/plugin';
 import ButtonView from '@ckeditor/ckeditor5-ui/src/button/buttonview';
@@ -160,7 +161,8 @@ DecoupledEditor.builtinPlugins = [
 	TodoList,
 	Underline,
 	UploadAdapter,
-	WordCount
+	WordCount,
+	PageBreak
 ];
 
 // Editor configuration.
@@ -200,7 +202,9 @@ DecoupledEditor.defaultConfig = {
 			'removeFormat',
 			'|',
 			'undo',
-			'redo'
+			'redo',
+			'|',
+			'pageBreak'
 		]
 	},
 	heading: {
